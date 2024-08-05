@@ -16,6 +16,7 @@ public class MagicNumbers : MonoBehaviour
     private void Start()
     {
         Debug.Log("Привет в Magic Numbers. Загадай число от {_min} до {_max}");
+        Debug.Log("Test");
 
         CalculateGuessAndLong();
     }
